@@ -98,9 +98,9 @@ CREATE TABLE `estado_cita` (
 --
 
 INSERT INTO `estado_cita` (`id`, `estado_cita`) VALUES
-(1, 'bien'),
-(2, 'mal'),
-(3, 'grave');
+(1, 'atendido'),
+(2, 'poratender'),
+(3, 'finalizado');
 
 -- --------------------------------------------------------
 
